@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="images/favicon.ico" rel="shortcut icon" sizes="any"/>
+    <title>Serveur WEB Micropython</title> 
+    </head>
+  <body> 
+    <h1>Site web embarqué sur microcontrôleur</h1>
+    <br>
+    <p> Le serveur web fonctionne sous <a href = "micropython.html"> micropython</a></p> 
+    <h2>Connecter à un smartphone en mode Acces Point par exemple</h2>  
+    <p> Il permet d'afficher des pages web (html) , gère les fichiers css, les liens internes et externes ,  les images png, jpeg, jpe, svg,webp...</p>
+    <p> Attention la taille d’une page est très limitée (17ko environ)</p>
+    <p> Par défaut les fichiers devront être stockés sous <b>www</b> </p> 
+    <p> Par défaut c'est la page <b>index.html</b> qui est ouverte</p>  
+    <img src='images/picoW3.jpg' /><br><br>
+    <div class='phone'><img src='images/smartphone.svg' /></div>
+   <table>
+  <tr>
+    <th>Recommandation ADEME</th>
+    <th>Température de la pièce : </th>
+  </tr>
+  <tr>
+    <td><img src='images/t_ademe1.png' /></td>
+    <td>{{temperature}}<br><img src="{{carre_couleur}}"</td>
+  </tr> 
+  </table>
+    <p>mise à jour : {{date}} </p>
+   </body>
+</html> 
+
+
+
+
+
+
