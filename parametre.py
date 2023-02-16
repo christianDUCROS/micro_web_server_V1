@@ -1,11 +1,11 @@
 #paramétrage site web    
-repertoire = 'www/'
-index_page='/index.html'
+repertoire = 'www'
+index_page='index.html'
 
 #parametres wifi station ou AP
-ssid="ssid_box"
-password="password_box"
+ssid="picoW"  #"ssid_box"
+password="123456789" #"password_box"
 
 #mode WIFI
-#mode_wifi = 'AP'
-mode_wifi = 'STA'
+mode_wifi = 'AP'
+#mode_wifi = 'STA'
