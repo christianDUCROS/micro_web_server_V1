@@ -104,7 +104,7 @@ def get_request_file(request_file_name):
     with open(repertoire + request_file_name, 'rb') as file:   #byte
         file_requested= file.read()
         print(repertoire + request_file_name)
-    file_requested = insertion_valeurs_dynamiques(file_requested)  # commentaire alors tailles des images plus grandes mais pas d'insertion dynamique de données
+    #file_requested = insertion_valeurs_dynamiques(file_requested)  # commentaire alors tailles des images plus grandes mais pas d'insertion dynamique de données
     return file_requested   
 #debut programme principal
 #connexion wifi
