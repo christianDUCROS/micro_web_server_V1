@@ -1,4 +1,0 @@
-carre_couleur : images/carre_vert.svg
-couleur_background : #FFDC33
-temperature : rien
-date: 14-02-2023
