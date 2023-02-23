@@ -3,8 +3,8 @@ repertoire = 'www'
 index_page='index.html'
 
 #parametres wifi station ou AP
-ssid="SFR_72B0"
-password="gh0osteloryphousides"
+ssid="picoW"
+password="123456789"
 
 #mode WIFI
 #mode_wifi = 'AP'
