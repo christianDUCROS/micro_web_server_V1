@@ -123,6 +123,7 @@ addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
 s = socket.socket()
 s.bind(addr)
 s.listen(5)
+s.settimeout(0.01) #evite de rester bloquer à attendre une connexion dans la boucle principale 
 print('listening on', addr) # Listen for connections
 commande = ''
 while True:
